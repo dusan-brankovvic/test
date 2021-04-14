@@ -8,7 +8,9 @@ This laravel docker image taken from laravel home page
 
 ``
 cd test
-./vendor/bin/sail up
+composer install
+cp.env.example .env
+php artisan key:generate
 ``
 
 ## Tests
