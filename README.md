@@ -7,11 +7,7 @@ This laravel docker image taken from laravel home page
 ## Setup
 
 ``
-curl -s "https://laravel.build/example-app" | bash
-``
-
-``
-cd example-app
+cd test
 ./vendor/bin/sail up
 ``
 
